@@ -16,7 +16,7 @@ const StyledContactSection = styled.section`
   .overline {
     display: block;
     margin-bottom: 20px;
-    color: var(--green);
+    color: var(--highlight);
     font-family: var(--font-mono);
     font-size: var(--fz-md);
     font-weight: 400;
@@ -32,7 +32,10 @@ const StyledContactSection = styled.section`
   }
 
   .title {
-    font-size: clamp(40px, 5vw, 60px);
+    font-size: clamp(30px, 5vw, 50px);
+    font-family: var(--font-title);
+    font-weight: 600;
+    margin: 40px 0;
   }
 
   .email-link {

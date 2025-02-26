@@ -24,6 +24,25 @@ import SFMonoRegularItalicWoff2 from '@fonts/SFMono/SFMono-RegularItalic.woff2';
 import SFMonoSemiboldItalicWoff from '@fonts/SFMono/SFMono-SemiboldItalic.woff';
 import SFMonoSemiboldItalicWoff2 from '@fonts/SFMono/SFMono-SemiboldItalic.woff2';
 
+import SharpGroteskItalic from '@fonts/SharpGrotesk/SharpGrotesk-Italic.otf';
+import SharpGroteskLight from '@fonts/SharpGrotesk/SharpGrotesk-Light.otf';
+import SharpGroteskMedium from '@fonts/SharpGrotesk/SharpGrotesk-Medium.otf';
+import SharpGroteskSemiBold from '@fonts/SharpGrotesk/SharpGrotesk-SemiBold.otf';
+import SharpGroteskBold from '@fonts/SharpGrotesk/SharpGrotesk-Bold.otf';
+import SharpGroteskSemiBoldItalic from '@fonts/SharpGrotesk/SharpGrotesk-SemiBoldItalic.otf';
+
+const sharpGNormalWeights = {
+  400: [SharpGroteskLight],
+  500: [SharpGroteskMedium],
+  600: [SharpGroteskSemiBold],
+  700: [SharpGroteskBold],
+};
+
+const sharpGItalicWeights = {
+  400: [SharpGroteskItalic],
+  500: [SharpGroteskSemiBoldItalic],
+};
+
 const calibreNormalWeights = {
   400: [CalibreRegularWoff, CalibreRegularWoff2],
   500: [CalibreMediumWoff, CalibreMediumWoff2],
@@ -58,6 +77,12 @@ const sfMono = {
   italic: sfMonoItalicWeights,
 };
 
+const sharpG = {
+  name: 'SharpGrotesk',
+  normal: sharpGNormalWeights,
+  italic: sharpGItalicWeights,
+};
+
 const createFontFaces = (family, style = 'normal') => {
   let styles = '';
 
@@ -86,8 +111,11 @@ const calibreItalic = createFontFaces(calibre, 'italic');
 const sfMonoNormal = createFontFaces(sfMono);
 const sfMonoItalic = createFontFaces(sfMono, 'italic');
 
+const sharpGNormal = createFontFaces(sharpG);
+const sharpGItalic = createFontFaces(sharpG, 'italic');
+
 const Fonts = css`
-  ${calibreNormal + calibreItalic + sfMonoNormal + sfMonoItalic}
+  ${calibreNormal + calibreItalic + sfMonoNormal + sfMonoItalic + sharpGNormal + sharpGItalic}
 `;
 
 export default Fonts;

@@ -13,7 +13,10 @@ const StyledProjectsSection = styled.section`
   align-items: center;
 
   h2 {
-    font-size: clamp(24px, 5vw, var(--fz-heading));
+    font-size: clamp(26px, 5vw, var(--fz-heading));
+    font-family: var(--font-title);
+    font-weight: 600;
+    margin-bottom: 25px;
   }
 
   .archive-link {
@@ -81,7 +84,7 @@ const StyledProject = styled.li`
     margin-bottom: 35px;
 
     .folder {
-      color: var(--green);
+      color: var(--highlight);
       svg {
         width: 40px;
         height: 40px;

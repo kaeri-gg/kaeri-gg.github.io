@@ -3,6 +3,7 @@ import fonts from './fonts';
 import variables from './variables';
 import TransitionStyles from './TransitionStyles';
 import PrismStyles from './PrismStyles';
+import noise from '../images/noise.svg';
 
 const GlobalStyle = createGlobalStyle`
   ${fonts};
@@ -27,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
 
   /* Provide basic, default focus styles.*/
   :focus {
-    outline: 2px dashed var(--green);
+    outline: 2px dashed var(--highlight);
     outline-offset: 3px;
   }
 
@@ -46,7 +47,7 @@ const GlobalStyle = createGlobalStyle`
     focus.
   */
   :focus-visible {
-    outline: 2px dashed var(--green);
+    outline: 2px dashed var(--highlight);
     outline-offset: 3px;
   }
 
@@ -109,6 +110,19 @@ const GlobalStyle = createGlobalStyle`
     display: grid;
     grid-template-rows: 1fr auto;
     grid-template-columns: 100%;
+
+    ::before {
+      content: "";
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: url('${noise}');
+      opacity: 0.5;
+      pointer-events: none;
+      z-index: 0;
+    }
   }
 
   main {
@@ -171,7 +185,20 @@ const GlobalStyle = createGlobalStyle`
 
   .big-heading {
     margin: 0;
-    font-size: clamp(40px, 8vw, 80px);
+    font-size: clamp(30px,8vw,70px);
+    font-family: var(--font-title);
+    font-weight: 600;
+
+    .highlight{
+      color: var(--dark-slate);
+    }
+  }
+
+  .heading {
+    margin: 0;
+    font-size: clamp(30px, 8vw, 50px);
+    font-family: var(--font-title);
+    font-weight: 400;
   }
 
   .medium-heading {
@@ -187,14 +214,15 @@ const GlobalStyle = createGlobalStyle`
     width: 100%;
     font-size: clamp(26px, 5vw, var(--fz-heading));
     white-space: nowrap;
+    font-family: var(--font-title);
 
     &:before {
       position: relative;
       bottom: 4px;
       counter-increment: section;
-      content: '0' counter(section) '.';
+      content: '>>';
       margin-right: 10px;
-      color: var(--green);
+      color: var(--highlight);
       font-family: var(--font-mono);
       font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
       font-weight: 400;
@@ -261,7 +289,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:hover,
     &:focus {
-      color: var(--green);
+      color: var(--highlight);
     }
 
     &.inline-link {
@@ -325,14 +353,14 @@ const GlobalStyle = createGlobalStyle`
           content: '▹';
           position: absolute;
           left: 0;
-          color: var(--green);
+          color: var(--highlight);
         }
       }
     }
   }
 
   blockquote {
-    border-left-color: var(--green);
+    border-left-color: var(--highlight);
     border-left-style: solid;
     border-left-width: 1px;
     margin-left: 0px;
@@ -372,7 +400,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:hover,
     &:focus {
-      background-color: var(--green);
+      background-color: var(--highlight);
       color: var(--navy);
       top: 0;
       left: 0;
@@ -386,18 +414,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #logo {
-    color: var(--green);
+    color: var(--highlight);
   }
 
   .overline {
-    color: var(--green);
+    color: var(--highlight);
     font-family: var(--font-mono);
     font-size: var(--fz-md);
     font-weight: 400;
   }
 
   .subtitle {
-    color: var(--green);
+    color: var(--highlight);
     margin: 0 0 20px 0;
     font-size: var(--fz-md);
     font-family: var(--font-mono);
@@ -420,7 +448,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     align-items: center;
     margin-bottom: 50px;
-    color: var(--green);
+    color: var(--highlight);
 
     .arrow {
       display: block;

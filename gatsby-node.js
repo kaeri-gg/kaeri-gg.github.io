@@ -44,11 +44,21 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   // Create post detail pages
   const posts = result.data.postsRemark.edges;
 
+  // posts.forEach(({ node }) => {
+  //   createPage({
+  //     path: node.frontmatter.slug,
+  //     component: postTemplate,
+  //     context: {},
+  //   });
+  // });
+
   posts.forEach(({ node }) => {
     createPage({
       path: node.frontmatter.slug,
       component: postTemplate,
-      context: {},
+      context: {
+        path: node.frontmatter.slug,
+      },
     });
   });
 
