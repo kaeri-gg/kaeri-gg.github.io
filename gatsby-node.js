@@ -115,3 +115,25 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
     },
   });
 };
+
+// https://www.gatsbyjs.org/docs/schema-customization/
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  const typeDefs = `
+    type MarkdownRemarkFrontmatter {
+    title: String
+    description: String
+    date: Date @dateformat
+    slug: String
+    tags: [String!]
+    company: String
+    tech: [String!]
+    github: String
+    external: String
+    ios: String
+    android: String
+    show: Boolean
+    }
+`;
+  createTypes(typeDefs);
+};

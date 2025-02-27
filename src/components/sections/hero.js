@@ -30,7 +30,7 @@ const StyledHeroSection = styled.section`
   }
 
   h3 {
-    margin-top: 5px;
+    margin: 5px 0px;
     color: var(--slate);
     line-height: 0.9;
   }
@@ -61,28 +61,30 @@ const Hero = () => {
 
   const one = <h1>Hello, my name is</h1>;
   const two = (
-    <h2 className="big-heading">
-      <p className="big-heading highlight">Kathleen</p> Povadora
-    </h2>
+    <div className="big-heading">
+      <span className="big-heading highlight">Kathleen</span> <span>Povadora</span>
+    </div>
   );
   const three = <h3 className="heading">I can design, code & play.</h3>;
   const four = (
     <p>
-      I’m a software engineer specializing in building (and occasionally designing) exceptional
-      digital experiences. Currently, I’m focused on building accessible, human-centered products at{' '}
-      <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-        Upstatement
-      </a>
-      .
+      I’m a front-end developer passionate about crafting exceptional digital experiences. With a
+      background in web and graphics design, I blend creativity and technology to build accessible,
+      human-centered products. Currently, I work as an Advanced App Engr. Specialist{' '}
+      <a href="https://github.com/kaeri-gg" target="_blank" rel="noreferrer">
+        {' '}
+        @Accenture{' '}
+      </a>{' '}
+      and I’m eager to explore game development to bring my love for art and interactivity to life.
     </p>
   );
   const five = (
     <a
       className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      href="https://www.behance.net/kaeri-gg"
       target="_blank"
       rel="noreferrer">
-      Check out my course!
+      View Behance
     </a>
   );
 

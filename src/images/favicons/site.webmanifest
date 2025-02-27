@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Kathleen Povadora",
+  "short_name": "Kaeri_gg",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#e5d2e9",
-  "background_color": "#e5d2e9",
+  "theme_color": "#EFE8E8",
+  "background_color": "#EFE8E8",
   "display": "standalone"
 }

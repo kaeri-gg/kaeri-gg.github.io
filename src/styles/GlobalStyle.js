@@ -294,6 +294,7 @@ const GlobalStyle = createGlobalStyle`
 
     &.inline-link {
       ${({ theme }) => theme.mixins.inlineLink};
+      margin-left: 5px;
     }
   }
 
