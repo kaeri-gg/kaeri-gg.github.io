@@ -58,7 +58,7 @@ const StyledNav = styled.nav`
   position: relative;
   width: 100%;
   color: var(--lightest-slate);
-  font-family: var(--font-mono);
+  font-family: var(--font-mono), serif;
   counter-reset: item 0;
   z-index: 12;
 

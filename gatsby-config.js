@@ -7,7 +7,6 @@ module.exports = {
       'Kathleen Povadora is a software engr. who specializes in coding, designing, and bringing digital experiences to life.',
     siteUrl: 'https://www.behance.net/kaeri-gg', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Kathleen Povadora',
+        short_name: 'Kathleen Povadora',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

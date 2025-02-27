@@ -118,7 +118,7 @@ const StyledProject = styled.li`
   .project-overline {
     margin: 10px 0;
     color: var(--highlight);
-    font-family: var(--font-mono);
+    font-family: var(--font-mono), serif;
     font-size: var(--fz-xs);
     font-weight: 400;
   }
@@ -126,7 +126,7 @@ const StyledProject = styled.li`
   .project-title {
     color: var(--lightest-slate);
     font-size: clamp(20px, 5vw, 24px);
-    font-family: var(--font-title);
+    font-family: var(--font-title), serif;
     font-weight: 400;
 
     @media (min-width: 768px) {
@@ -195,7 +195,7 @@ const StyledProject = styled.li`
     li {
       margin: 0 20px 5px 0;
       color: var(--light-slate);
-      font-family: var(--font-mono);
+      font-family: var(--font-mono), serif;
       font-size: var(--fz-xs);
       white-space: nowrap;
     }

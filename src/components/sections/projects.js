@@ -14,13 +14,13 @@ const StyledProjectsSection = styled.section`
 
   h2 {
     font-size: clamp(26px, 5vw, var(--fz-heading));
-    font-family: var(--font-title);
+    font-family: var(--font-title), serif;
     font-weight: 600;
     margin-bottom: 25px;
   }
 
   .archive-link {
-    font-family: var(--font-mono);
+    font-family: var(--font-mono), serif;
     font-size: var(--fz-sm);
     &:after {
       bottom: 0.1em;
@@ -157,7 +157,7 @@ const StyledProject = styled.li`
     list-style: none;
 
     li {
-      font-family: var(--font-mono);
+      font-family: var(--font-mono), serif;
       font-size: var(--fz-xxs);
       line-height: 1.75;
 

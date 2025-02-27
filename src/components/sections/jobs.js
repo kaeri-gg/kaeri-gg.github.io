@@ -76,7 +76,7 @@ const StyledTabButton = styled.button`
   border-left: 2px solid var(--lightest-navy);
   background-color: transparent;
   color: ${({ isActive }) => (isActive ? 'var(--highlight)' : 'var(--slate)')};
-  font-family: var(--font-mono);
+  font-family: var(--font-mono), serif;
   font-size: var(--fz-xs);
   text-align: left;
   white-space: nowrap;
@@ -148,9 +148,8 @@ const StyledTabPanel = styled.div`
   h3 {
     margin-bottom: 10px;
     font-size: var(--fz-xxl);
-    font-weight: 500;
     line-height: 1.3;
-    font-family: var(--font-title);
+    font-family: var(--font-title), serif;
     font-weight: 400;
 
     .company {
@@ -161,7 +160,7 @@ const StyledTabPanel = styled.div`
   .range {
     margin-bottom: 25px;
     color: var(--light-slate);
-    font-family: var(--font-mono);
+    font-family: var(--font-mono), serif;
     font-size: var(--fz-xs);
   }
 `;

@@ -38,7 +38,7 @@ const GlobalStyle = createGlobalStyle`
   */
   :focus:not(:focus-visible) {
     outline: none;
-    outline-offset: 0px;
+    outline-offset: 0;
   }
 
   /*
@@ -77,7 +77,7 @@ const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     background-color: var(--navy);
     color: var(--slate);
-    font-family: var(--font-sans);
+    font-family: var(--font-sans), serif;
     font-size: var(--fz-xl);
     line-height: 1.3;
 
@@ -186,7 +186,7 @@ const GlobalStyle = createGlobalStyle`
   .big-heading {
     margin: 0;
     font-size: clamp(30px,8vw,70px);
-    font-family: var(--font-title);
+    font-family: var(--font-title), serif;
     font-weight: 600;
 
     .highlight{
@@ -197,7 +197,7 @@ const GlobalStyle = createGlobalStyle`
   .heading {
     margin: 0;
     font-size: clamp(30px, 8vw, 50px);
-    font-family: var(--font-title);
+    font-family: var(--font-title), serif;
     font-weight: 400;
   }
 
@@ -214,7 +214,7 @@ const GlobalStyle = createGlobalStyle`
     width: 100%;
     font-size: clamp(26px, 5vw, var(--fz-heading));
     white-space: nowrap;
-    font-family: var(--font-title);
+    font-family: var(--font-title), serif;
 
     &:before {
       position: relative;
@@ -223,7 +223,7 @@ const GlobalStyle = createGlobalStyle`
       content: '>>';
       margin-right: 10px;
       color: var(--highlight);
-      font-family: var(--font-mono);
+      font-family: var(--font-mono), serif;
       font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
       font-weight: 400;
 
@@ -363,8 +363,8 @@ const GlobalStyle = createGlobalStyle`
     border-left-color: var(--highlight);
     border-left-style: solid;
     border-left-width: 1px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
     padding-left: 1.5rem;
 
     p {
@@ -376,7 +376,7 @@ const GlobalStyle = createGlobalStyle`
   hr {
     background-color: var(--lightest-navy);
     height: 1px;
-    border-width: 0px;
+    border-width: 0;
     border-style: initial;
     border-color: initial;
     border-image: initial;
@@ -384,7 +384,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   code {
-    font-family: var(--font-mono);
+    font-family: var(--font-mono), serif;
     font-size: var(--fz-md);
   }
 
@@ -419,7 +419,7 @@ const GlobalStyle = createGlobalStyle`
 
   .overline {
     color: var(--highlight);
-    font-family: var(--font-mono);
+    font-family: var(--font-mono), serif;
     font-size: var(--fz-md);
     font-weight: 400;
   }
@@ -428,7 +428,7 @@ const GlobalStyle = createGlobalStyle`
     color: var(--highlight);
     margin: 0 0 20px 0;
     font-size: var(--fz-md);
-    font-family: var(--font-mono);
+    font-family: var(--font-mono), serif;
     font-weight: 400;
     line-height: 1.5;
     @media (max-width: 1080px) {
@@ -458,7 +458,7 @@ const GlobalStyle = createGlobalStyle`
 
     a {
       ${({ theme }) => theme.mixins.inlineLink};
-      font-family: var(--font-mono);
+      font-family: var(--font-mono), serif;
       font-size: var(--fz-sm);
       font-weight: 600;
       line-height: 1.5;
