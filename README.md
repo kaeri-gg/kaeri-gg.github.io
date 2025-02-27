@@ -1,13 +1,7 @@
-<<<<<<< HEAD
 Hello! I’m Katie and I have modified and am working on improving this portfolio’s design.
 
-=======
-
-Hello! I’m Katie and I have modified and am working on improving this portfolio’s design.
-
-> > > > > > > ae6d1862dd9dba4bd17f5a0215da53a018086cc9
-> > > > > > > This portfolio is forked out of Britanny's > [GitHub](https://github.com/bchiang7/v4).
-> > > > > > > Please give proper credit by linking back to her [brittanychiang.com](https://brittanychiang.com). Thanks~
+This portfolio is forked out of Britanny's > [GitHub](https://github.com/bchiang7/v4).
+Please give proper credit by linking back to her [brittanychiang.com](https://brittanychiang.com). Thanks~
 
 ## 🛠 Installation & Set Up
 
