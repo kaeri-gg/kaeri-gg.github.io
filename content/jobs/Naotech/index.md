@@ -1,5 +1,5 @@
 ---
-date: '2016-05'
+date: '2016-05-01'
 title: 'Web & Graphics Designer'
 company: 'Naotech Inc.'
 location: 'Makati, PH'

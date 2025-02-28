@@ -1,5 +1,5 @@
 ---
-date: '2020-06'
+date: '2020-06-01'
 title: 'Advanced App Engr. Specialist'
 company: 'Accenture'
 location: 'Makati, PH'

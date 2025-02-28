@@ -1,5 +1,5 @@
 ---
-date: '2015-03'
+date: '2015-03-01'
 title: 'Web & Graphic Designer'
 company: 'DSI Technology'
 location: 'BGC, PH'

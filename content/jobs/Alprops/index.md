@@ -1,5 +1,5 @@
 ---
-date: '2020-05'
+date: '2020-05-01'
 title: 'Front-end Developer'
 company: 'Aprops Inc.'
 location: 'Makati, PH'
