@@ -84,7 +84,7 @@ const Footer = () => (
       <a href="https://github.com/kaeri-gg/kaeri-gg.github.io">
         <div>Modified &amp; Customised by Kathleen Povadora ❤️</div>
       </a>
-      {'| '}
+      {'|'}
       <a href="https://github.com/bchiang7/v4">
         <div>Designed &amp; Built by Brittany Chiang 😎</div>
       </a>

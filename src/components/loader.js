@@ -35,8 +35,9 @@ const StyledLoader = styled.div`
     .grid {
       display: flex;
       justify-content: center;
-      font-family: monospace;
+      font-family: var(--font-mono), serif;
       white-space: pre;
+      font-size: var(--fz-sm);
     }
   }
 `;
@@ -121,7 +122,7 @@ const Loader = ({ finishLoading }) => {
         <IconLoader />
         <div className="grid" id="dots">
           <span ref={$grid}></span>
-          <span> building profile... </span>
+          <span> building profile...</span>
         </div>
       </div>
     </StyledLoader>

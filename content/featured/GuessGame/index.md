@@ -2,7 +2,9 @@
 date: '3'
 title: 'Guess Game'
 cover: './guessGame.png'
+external: 'https://kaeri-gg.github.io/guess-game/'
 cta: 'https://kaeri-gg.github.io/guess-game/'
+
 tech:
   - JavaScript
   - JQuery
