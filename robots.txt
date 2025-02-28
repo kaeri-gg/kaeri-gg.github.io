@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.behance.net/sitemap-index.xml
+Host: https://www.behance.net
