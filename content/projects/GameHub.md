@@ -1,5 +1,5 @@
 ---
-date: '2024-05'
+date: '2024-05-01'
 title: 'Game Hub'
 github: 'https://github.com/kaeri-gg/game-hub'
 external: 'https://kaeri-gg.github.io/game-hub/'
