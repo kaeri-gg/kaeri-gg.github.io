@@ -266,7 +266,7 @@ const Menu = () => {
               </ol>
             )}
 
-            <a href="/resume.pdf" className="resume-link">
+            <a href="https://kaeri-gg.github.io/resume" className="resume-link">
               CV
             </a>
           </nav>
