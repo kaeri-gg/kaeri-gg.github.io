@@ -195,7 +195,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .heading {
-    margin: 0;
+    margin:  0;
     font-size: clamp(30px, 8vw, 50px);
     font-family: var(--font-title), serif;
     font-weight: 400;

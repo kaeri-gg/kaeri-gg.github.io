@@ -12,4 +12,4 @@ company: 'Skin Miracle'
 showInProjects: true
 ---
 
-Collection of instagram posts for Skin Miracle products.
+A set of social media ads crafted to share the benefits of the product.

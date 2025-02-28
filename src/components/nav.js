@@ -14,7 +14,7 @@ const StyledHeader = styled.header`
   position: fixed;
   top: 0;
   z-index: 11;
-  padding: 0px 50px;
+  padding: 0 50px;
   width: 100%;
   height: var(--nav-height);
   background-color: rgb(3 4 15 / 86%);
@@ -206,8 +206,12 @@ const Nav = ({ isHome }) => {
   );
 
   const ResumeLink = (
-    <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-      Resume
+    <a
+      className="resume-button"
+      href="https://kaeri-gg.github.io/resume"
+      target="_blank"
+      rel="noopener noreferrer">
+      CV
     </a>
   );
 
@@ -220,12 +224,11 @@ const Nav = ({ isHome }) => {
 
             <StyledLinks>
               <ol>
-                {navLinks &&
-                  navLinks.map(({ url, name }, i) => (
-                    <li key={i}>
-                      <Link to={url}>{name}</Link>
-                    </li>
-                  ))}
+                {navLinks?.map(({ url, name }, i) => (
+                  <li key={i}>
+                    <Link to={url}>{name}</Link>
+                  </li>
+                ))}
               </ol>
               <div>{ResumeLink}</div>
             </StyledLinks>
@@ -246,8 +249,7 @@ const Nav = ({ isHome }) => {
               <ol>
                 <TransitionGroup component={null}>
                   {isMounted &&
-                    navLinks &&
-                    navLinks.map(({ url, name }, i) => (
+                    navLinks?.map(({ url, name }, i) => (
                       <CSSTransition key={i} classNames={fadeDownClass} timeout={timeout}>
                         <li key={i} style={{ transitionDelay: `${isHome ? i * 100 : 0}ms` }}>
                           <Link to={url}>{name}</Link>

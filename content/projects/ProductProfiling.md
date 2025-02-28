@@ -8,7 +8,7 @@ tech:
   - Adobe Illustrator
   - Adobe Photoshop
 company: 'Skin Miracle'
-showInProjects: true
+showInProjects: false
 ---
 
 This is a product presentation that I need to make pretty and presentable. It contains all info about the product.

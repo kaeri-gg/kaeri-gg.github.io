@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
 import anime from 'animejs';
@@ -33,6 +33,12 @@ const StyledLoader = styled.div`
         opacity: 0;
       }
     }
+    .grid {
+      display: flex;
+      justify-content: center;
+      font-family: monospace;
+      white-space: pre;
+    }
   }
 `;
 
@@ -59,7 +65,7 @@ const Loader = ({ finishLoading }) => {
         opacity: 1,
       })
       .add({
-        targets: '#logo',
+        targets: '#logo, #dots',
         delay: 500,
         duration: 300,
         easing: 'easeInOutQuart',
@@ -75,6 +81,34 @@ const Loader = ({ finishLoading }) => {
       });
   };
 
+  const spinner = {
+    interval: 80,
+    frames: ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏'],
+  };
+
+  const $grid = useRef(null);
+  const createDots = () => {
+    const $cell = document.createElement('div');
+    const $spin = document.createElement('div');
+    $spin.innerText = spinner.frames[0];
+
+    $cell.appendChild($spin);
+    $grid.current.appendChild($cell);
+
+    let i = 0;
+    return setInterval(() => {
+      requestAnimationFrame(() => {
+        $spin.innerText = spinner.frames[++i % spinner.frames.length];
+      });
+    }, spinner.interval);
+  };
+
+  useEffect(() => {
+    const id = createDots();
+
+    return () => clearInterval(id);
+  }, []);
+
   useEffect(() => {
     const timeout = setTimeout(() => setIsMounted(true), 10);
     animate();
@@ -84,9 +118,12 @@ const Loader = ({ finishLoading }) => {
   return (
     <StyledLoader className="loader" isMounted={isMounted}>
       <Helmet bodyAttributes={{ class: `hidden` }} />
-
       <div className="logo-wrapper">
         <IconLoader />
+        <div className="grid" id="dots">
+          <span ref={$grid}></span>
+          <span> building profile... </span>
+        </div>
       </div>
     </StyledLoader>
   );

@@ -1,13 +1,13 @@
 ---
-date: '2019'
+date: '2018'
 title: 'AMAPHIL Website'
 github: ''
-external: 'https://www.behance.net/gallery/219906803/Mobile-Application-Screens'
+external: 'https://www.behance.net/gallery/220054477/Simple-Web-Design'
 tech:
   - Wordpress
   - Bootstrap
 
-company: 'Amaphil'
+company: 'AMAPHIL'
 showInProjects: true
 ---
 

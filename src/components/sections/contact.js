@@ -60,11 +60,15 @@ const Contact = () => {
     <StyledContactSection id="contact" ref={revealContainer}>
       <h2 className="numbered-heading overline">What’s Next?</h2>
 
-      <h2 className="title">Get In Touch</h2>
+      <h2 className="title">Let's Connect!</h2>
 
       <p>
-        Although I’m not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+        I’m currently open to part-time remote work to enhance my skills and collaborate on creative
+        projects, especially in game development involving ReactJS and TypeScript.
+      </p>
+      <p>
+        If you’re working on something exciting and think I can contribute, feel free to drop me a
+        message or send me a dm on Discord:<b> Kaeri#4587</b>— I’d love to chat!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

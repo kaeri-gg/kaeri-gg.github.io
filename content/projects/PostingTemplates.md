@@ -9,7 +9,7 @@ tech:
   - Adobe Photoshop
 
 company: 'Skin Miracle'
-showInProjects: true
+showInProjects: false
 ---
 
 Collection of templates for feedback, winners, and random posts.
