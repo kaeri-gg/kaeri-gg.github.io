@@ -1,7 +1,7 @@
 ---
 date: '2020-05-01'
 title: 'Front-end Developer'
-company: 'Aprops Inc.'
+company: 'Alprops Inc.'
 location: 'Makati, PH'
 range: 'June 2018 - May 2020'
 url: '#'
