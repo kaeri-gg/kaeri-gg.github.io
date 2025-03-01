@@ -8,7 +8,7 @@ tech:
   - Adobe Illustrator
   - Adobe Photoshop
 company: 'Skin Miracle'
-showInProjects: false
+showInProjects: true
 ---
 
 A few creative and engaging ad designs to introduce Skin Miracle products to more people.
