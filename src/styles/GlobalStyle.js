@@ -152,7 +152,7 @@ const GlobalStyle = createGlobalStyle`
         padding: 0 50px;
       }
       @media (max-width: 480px) {
-        padding: 0 25px;
+        padding: 25px 25px 0;
       }
     }
   }
@@ -196,7 +196,7 @@ const GlobalStyle = createGlobalStyle`
 
   .heading {
     margin:  0;
-    font-size: clamp(20px,8vw,30px);
+    font-size: clamp(10px,5vw,30px);
     font-family: var(--font-title), serif;
     font-weight: 400;
   }

@@ -18,7 +18,7 @@ const StyledHeroSection = styled.section`
   }
 
   h1 {
-    margin: 0 0 35px 4px;
+    margin: 0 0 20px 4px;
     color: var(--highlight);
     font-family: var(--font-mono), serif;
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
@@ -35,13 +35,13 @@ const StyledHeroSection = styled.section`
   }
 
   p {
-    margin: 35px 0 0;
+    margin: 20px 0 0;
     max-width: 540px;
   }
 
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
-    margin-top: 50px;
+    margin-top: 30px;
   }
 `;
 
