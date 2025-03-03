@@ -185,7 +185,7 @@ const GlobalStyle = createGlobalStyle`
 
   .big-heading {
     margin: 0;
-    font-size: clamp(30px,8vw,70px);
+    font-size: clamp(30px,8vw,60px);
     font-family: var(--font-title), serif;
     font-weight: 600;
 
@@ -196,7 +196,7 @@ const GlobalStyle = createGlobalStyle`
 
   .heading {
     margin:  0;
-    font-size: clamp(30px, 8vw, 50px);
+    font-size: clamp(20px,8vw,30px);
     font-family: var(--font-title), serif;
     font-weight: 400;
   }

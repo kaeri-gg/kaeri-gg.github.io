@@ -18,7 +18,7 @@ const StyledHeroSection = styled.section`
   }
 
   h1 {
-    margin: 0 0 30px 4px;
+    margin: 0 0 35px 4px;
     color: var(--highlight);
     font-family: var(--font-mono), serif;
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
@@ -35,7 +35,7 @@ const StyledHeroSection = styled.section`
   }
 
   p {
-    margin: 45px 0 0;
+    margin: 35px 0 0;
     max-width: 540px;
   }
 
@@ -67,8 +67,8 @@ const Hero = () => {
   const three = <h3 className="heading">I can design, code & play.</h3>;
   const four = (
     <p>
-      I’m a front-end developer passionate about crafting exceptional digital experiences. With a
-      background in web and graphics design, I blend creativity and technology to build accessible,
+      I’m a web & graphics designer passionate about crafting exceptional digital experiences. With
+      a background in web development, I blend creativity and technology to build accessible,
       human-centered products. Currently, I work as an Advanced App Engr. Specialist{' '}
       <a href="https://github.com/kaeri-gg" target="_blank" rel="noreferrer">
         {' '}
