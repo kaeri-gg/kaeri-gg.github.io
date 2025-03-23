@@ -13,5 +13,5 @@ tech:
   - Bun
 ---
 
-Collaborative project with [@n1md7](https://github.com/n1md7). This is a 3D version of the game Quoridor. The game is played 9x9 board with 3D walls. The goal of the game is to reach the other side of the board.
+Collaborative project with [@n1md7](https://github.com/n1md7). This is a 3D version of the game Quoridor. It's a strategic game played in 9x9 board with 3D walls. The goal of the game is to reach the other side of the board.
 View on [Github](https://github.com/n1md7/GG-Soft-Quoridor)

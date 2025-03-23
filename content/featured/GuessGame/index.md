@@ -13,4 +13,4 @@ tech:
 
 Guess Game is a simple, mobile-friendly web game where you guess a hidden number within a given range.
 The game offers three difficulty modes: Easy, Normal, and Hard, each with varying number ranges.
-View on [@github](https://github.com/kaeri-gg/game-hub).
+View on [@github](https://github.com/kaeri-gg/guess-game).

@@ -138,10 +138,9 @@ const About = () => {
           <div>
             <p>
               You can call me <b>Katie</b> (& <b className="highlight">Kaeri</b> is my in-game name
-              🕹️). Since primary school, I’ve been drawn to art, though programming was once a
-              mystery to me. But as I explored the IT industry, I realized it's a vast world where I
-              can blend my profession with my love for design—bringing creativity to life through
-              technology.
+              🕹️). Since primary school, I’ve been drawn to art. Though programming was once a
+              mystery to me, as I explored the IT industry, I realized it's a vast world where I can
+              blend my profession with my love for design and bring creativity and technology.
             </p>
             <p>
               I started in start-ups, where I was immersed in both programming and multimedia.
