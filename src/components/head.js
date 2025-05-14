@@ -54,6 +54,11 @@ const Head = ({ title, description, image }) => {
       <link rel="apple-touch-icon" sizes="180x180" href="../images/favicons/apple-touch-icon.png" />
       <meta name="apple-mobile-web-app-title" content="Kaeri_gg" />
       <link rel="manifest" href="../images/favicons/site.webmanifest" />
+      <script
+        data-goatcounter="https://kaeri-gg.goatcounter.com/count"
+        async
+        src="//gc.zgo.at/count.js"
+      />
     </Helmet>
   );
 };
