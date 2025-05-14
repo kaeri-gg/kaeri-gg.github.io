@@ -64,17 +64,18 @@ const Hero = () => {
       <span className="big-heading highlight">Kathleen</span> <span>Povadora</span>
     </div>
   );
-  const three = <h3 className="heading">I can design, code & play.</h3>;
+  const three = <h3 className="heading">Designer | Developer | Gamer</h3>;
   const four = (
     <p>
-      I’m a web & graphics designer passionate about crafting exceptional digital experiences. With
-      a background in web development, I blend creativity and technology to build accessible,
-      human-centered products. Currently, I work as an Advanced App Engr. Specialist{' '}
+      I’m a web & graphics designer passionate about crafting digital experiences. Right now, I am
+      learning ReactJs, TypeScript, ThreeJs for my personal projects. Currently, I work as an
+      Advanced App Engr. Specialist{' '}
       <a href="https://github.com/kaeri-gg" target="_blank" rel="noreferrer">
         {' '}
         @Accenture{' '}
       </a>{' '}
-      and I’m eager to explore game development to bring my love for art and interactivity to life.
+      and I’m eager to explore game development, focused on building digital learning materials to
+      bring my love for animation and learning to life.
     </p>
   );
   const five = (
