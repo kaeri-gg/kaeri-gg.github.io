@@ -17,6 +17,11 @@ const IndexPage = ({ location }) => (
       <Projects />
       <Contact />
     </StyledMainContainer>
+    <script
+      data-goatcounter="https://kaeri-gg.goatcounter.com/count"
+      async
+      src="//gc.zgo.at/count.js"
+    />
   </Layout>
 );
 
