@@ -60,7 +60,6 @@ const Head = ({ title, description, image }) => {
         src="//gc.zgo.at/count.js"
       />
       <script async src="//counter.top.ge/counter.js" />
-
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-NLTX3DY6MM" />
       <script>
         {`
