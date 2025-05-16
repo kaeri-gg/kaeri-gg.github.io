@@ -89,8 +89,6 @@ const Footer = () => (
         <div>Designed &amp; Built by Brittany Chiang 😎</div>
       </a>
     </StyledCredit>
-    <div id="top-ge-counter-container" data-site-id="118085"></div>
-    <script async src="//counter.top.ge/counter.js" />
   </StyledFooter>
 );
 

@@ -59,6 +59,17 @@ const Head = ({ title, description, image }) => {
         async
         src="//gc.zgo.at/count.js"
       />
+      <script async src="//counter.top.ge/counter.js" />
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-NLTX3DY6MM" />
+      <script>
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-NLTX3DY6MM');
+      `}
+      </script>
     </Helmet>
   );
 };

@@ -9,6 +9,7 @@ const StyledMainContainer = styled.main`
 
 const IndexPage = ({ location }) => (
   <Layout location={location}>
+    <div id="top-ge-counter-container" data-site-id="118085"></div>
     <StyledMainContainer className="fillHeight">
       <Hero />
       <About />
