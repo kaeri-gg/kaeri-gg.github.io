@@ -138,20 +138,20 @@ const About = () => {
           <div>
             <p>
               You can call me <b>KT</b> (& my in-game name is <b className="highlight">Kaeri</b>
-              🕹️). Since primary school, I’ve been drawn to art. Though programming was once a
-              mystery to me, as I explored the IT industry, I realized it's a vast world where I can
-              blend my profession with my love for design and technology.
+              🕹️). Since primary school, I’ve been drawn to art. I wasn't aware about programming -
+              what is that? But as I decided to take an IT course, I realized it's a vast world
+              where I can blend my love for designing and apply technology.
             </p>
             <p>
               I started in start-ups, where I was immersed in both programming and multimedia,
               handling UI/UX design, FE development, and graphics materials. Starting in a
-              fast-paced environment meant figuring things out on my own, which made the journey
-              both challenging and rewarding.
+              fast-paced environment meant figuring things out on my own, which made my journey both
+              challenging and rewarding.
             </p>
             <p>
               I later transitioned to a huge-corporation, where I focused on developing reusable AEM
-              components. These days, on my free time, I am trying to learn and create mini games
-              and animations (and play)!
+              components. But these days, on my free time, I am trying to learn more, create mini
+              games and animations (and play)!
             </p>
 
             <p>Here are a few technologies and hobbies I’ve been into recently:</p>
