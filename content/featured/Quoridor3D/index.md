@@ -2,8 +2,8 @@
 date: '1'
 title: 'Quoridor 3D'
 cover: './quoridor3d.png'
-external: 'https://n1md7.github.io/GG-Soft-Quoridor/45-implement-game-logic/'
-cta: 'https://n1md7.github.io/GG-Soft-Quoridor/45-implement-game-logic/'
+external: 'https://n1md7.github.io/GG-Soft-Quoridor'
+cta: 'https://n1md7.github.io/GG-Soft-Quoridor'
 
 tech:
   - ReactJs
