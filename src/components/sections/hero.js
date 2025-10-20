@@ -69,7 +69,7 @@ const Hero = () => {
     <p>
       I’m a Front-end Developer experienced in both web and graphic design. Right now, I am shifting
       my focus towards game development- building small personal projects while pursuing a Master’s
-      degree in Digital Learning Games at
+      degree in Digital Learning Games
       <a href="https://www.tlu.ee/" target="_blank" rel="noreferrer">
         {' '}
         @Tallinn University.{' '}
