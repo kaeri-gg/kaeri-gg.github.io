@@ -9,7 +9,7 @@ tech:
   - Adobe Photoshop
 
 company: 'Skin Miracle'
-showInProjects: true
+showInProjects: false
 ---
 
 A set of social media ads crafted to share the benefits of the product.

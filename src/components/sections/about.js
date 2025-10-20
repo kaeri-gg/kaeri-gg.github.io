@@ -137,7 +137,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              You can call me <b>KT</b> (& my in-game name is <b className="highlight">Kaeri</b>
+              You can call me <b>Kath</b> (& my in-game name is <b className="highlight">Kaeri</b>
               🕹️). Since primary school, I’ve been drawn to art. I wasn't aware about programming -
               what is that? But as I decided to take an IT course, I realized it's a vast world
               where I can blend my love for designing and apply technology.

@@ -6,7 +6,7 @@ external: 'https://www.behance.net/gallery/219845515/Course-Outline'
 tech:
   - Adobe Illustrator
 company: 'Incepxion'
-showInProjects: true
+showInProjects: false
 ---
 
 This is a course outline for a training about running Facebook Ads. I used some existing components for it

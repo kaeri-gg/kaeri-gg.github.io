@@ -9,7 +9,7 @@ tech:
   - Adobe Photoshop
 
 company: 'Skin Miracle'
-showInProjects: true
+showInProjects: false
 ---
 
 This is a presentation for all Skin Miracle products. Contains information for each item.

@@ -1,4 +1,4 @@
-Hello! I’m Katie and I have modified and am working on improving this portfolio’s design.
+Hello! I’m Kath and I have modified and am working on improving this portfolio’s design.
 
 This portfolio is forked out of Britanny's > [GitHub](https://github.com/bchiang7/v4).
 Please give proper credit by linking back to her [brittanychiang.com](https://brittanychiang.com). Thanks~

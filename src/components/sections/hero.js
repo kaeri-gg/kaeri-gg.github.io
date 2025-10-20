@@ -67,15 +67,15 @@ const Hero = () => {
   const three = <h3 className="heading">Designer | Developer | Gamer</h3>;
   const four = (
     <p>
-      I’m a web & graphics designer passionate about crafting digital experiences. Right now, I am
-      learning ReactJs, TypeScript, & ThreeJs for my personal projects. Currently, I'm working as an
-      Advanced App Engr. Specialist{' '}
-      <a href="https://github.com/kaeri-gg" target="_blank" rel="noreferrer">
+      I’m a Front-end Developer experienced in both web and graphic design. Right now, I am shifting
+      my focus towards game development- building small personal projects while pursuing a Master’s
+      degree in Digital Learning Games at
+      <a href="https://www.tlu.ee/" target="_blank" rel="noreferrer">
         {' '}
-        @Accenture{' '}
+        @Tallinn University.{' '}
       </a>{' '}
-      and I’m exploring 3D & game development, focused on building digital learning materials to
-      apply both programming, designing and learning new things.
+      Alongside my studies, I’m exploring game engines, Blender, ReactJS and ThreeJS to build more
+      interactive digital experiences, combining programming and designing.
     </p>
   );
   const five = (
