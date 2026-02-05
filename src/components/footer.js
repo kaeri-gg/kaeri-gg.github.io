@@ -82,7 +82,7 @@ const Footer = () => (
 
     <StyledCredit tabindex="-1">
       <a href="https://github.com/kaeri-gg/kaeri-gg.github.io">
-        <div> Customised &amp; Modified by KT ❤️</div>
+        <div> Customised &amp; Modified by Kaeri ❤️</div>
       </a>
       {'|'}
       <a href="https://github.com/bchiang7/v4">

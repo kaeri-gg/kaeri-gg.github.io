@@ -1,10 +1,8 @@
 ---
-date: '3'
+date: '2025-06-01'
 title: 'Guess Game'
-cover: './guessGame.png'
 external: 'https://kaeri-gg.github.io/guess-game/'
 cta: 'https://kaeri-gg.github.io/guess-game/'
-
 tech:
   - JavaScript
   - JQuery
@@ -12,5 +10,3 @@ tech:
 ---
 
 Guess Game is a simple, mobile-friendly web game where you guess a hidden number within a given range.
-The game offers three difficulty modes: Easy, Normal, and Hard, each with varying number ranges.
-View on [@github](https://github.com/kaeri-gg/guess-game).

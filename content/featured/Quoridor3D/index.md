@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '2'
 title: 'Quoridor 3D'
 cover: './quoridor3d.png'
 external: 'https://n1md7.github.io/GG-Soft-Quoridor'

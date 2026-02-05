@@ -67,15 +67,14 @@ const Hero = () => {
   const three = <h3 className="heading">Designer | Developer | Gamer</h3>;
   const four = (
     <p>
-      I’m a Front-end Developer experienced in both web and graphic design. Right now, I am shifting
-      my focus towards game development- building small personal projects while pursuing a Master’s
-      degree in Digital Learning Games
+      Master’s student in Digital Learning Games{' '}
       <a href="https://www.tlu.ee/" target="_blank" rel="noreferrer">
-        {' '}
-        @Tallinn University.{' '}
+        @Tallinn University
       </a>{' '}
-      Alongside my studies, I’m exploring game engines, Blender, ReactJS and ThreeJS to build more
-      interactive digital experiences, combining programming and designing.
+      with experience building user-facing web interfaces using JavaScript and modern web
+      technologies. I work on small personal projects in web and game development, exploring game
+      engines, React, Three.js, and Blender to create interactive digital experiences that combine
+      programming and design.
     </p>
   );
   const five = (
