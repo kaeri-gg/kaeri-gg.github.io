@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '4'
 title: 'IOT Device Manager'
 cover: './iotDeviceManager.png'
 github: 'https://github.com/n1md7/IoT-Device-Manager'

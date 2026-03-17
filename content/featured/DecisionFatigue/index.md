@@ -1,14 +1,13 @@
 ---
-date: '1'
+date: '3'
 title: 'Decision Fatigue'
 cover: './DecisionFatigue.png'
 cta: 'https://kaeri-gg.github.io/decision-fatigue/release/'
 external: 'https://github.com/kaeri-gg/decision-fatigue'
 
 tech:
-  - JavaScript
-  - JQuery
-  - Tailwind CSS
+  - Godot 4
+  - Adobe Illustrator
 ---
 
 Decision Fatigue is a life-simulation board game where every dice roll forces you to make everyday choices
