@@ -8,6 +8,7 @@ external: 'https://github.com/kaeri-gg/decision-fatigue'
 tech:
   - Godot 4
   - Adobe Illustrator
+  - GDScript
 ---
 
 Decision Fatigue is a life-simulation board game where every dice roll forces you to make everyday choices
