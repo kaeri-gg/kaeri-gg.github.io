@@ -258,7 +258,7 @@ const StyledProject = styled.li`
     a {
       width: 100%;
       height: 100%;
-      background-color: var(--highlight);
+      background-color: var(--image-overlay);
       border-radius: var(--border-radius);
       vertical-align: middle;
 
