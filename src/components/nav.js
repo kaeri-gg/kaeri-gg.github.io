@@ -208,10 +208,10 @@ const Nav = ({ isHome }) => {
   const ResumeLink = (
     <a
       className="resume-button"
-      href="https://kaeri-gg.github.io/resume"
+      href="https://kaeri-gg.itch.io/"
       target="_blank"
       rel="noopener noreferrer">
-      CV
+      View on Itch
     </a>
   );
 

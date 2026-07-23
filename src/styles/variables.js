@@ -4,7 +4,7 @@ const variables = css`
   :root {
     --dark-navy: #020c1b;
     --navy: #101123;
-    --light-navy: #090c23;
+    --light-navy: #1b1f39;
     --lightest-navy: #233554;
     --navy-shadow: rgba(2, 12, 27, 0.7);
     --dark-slate: #88db0b;
@@ -13,7 +13,7 @@ const variables = css`
     --lightest-slate: #ccd6f6;
     --white: #e6f1ff;
     --highlight: #b060ff;
-    --image-overlay: #fcd6ff;
+    --image-overlay: #ccd6f6;
     --green-tint: rgba(100, 255, 218, 0.1);
     --pink: #f57dff;
     --blue: #57cbff;

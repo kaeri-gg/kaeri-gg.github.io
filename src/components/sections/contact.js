@@ -63,10 +63,6 @@ const Contact = () => {
       <h2 className="title">Let's Connect!</h2>
 
       <p>
-        I’m currently open to a remote work to enhance my skills and collaborate on creative
-        projects, especially in game development involving ReactJS and TypeScript.
-      </p>
-      <p>
         If you’re working on something exciting and think I can contribute, feel free to drop me a
         message or send me a dm on Discord:<b> Kaeri#4587</b>— I’d love to chat!
       </p>
