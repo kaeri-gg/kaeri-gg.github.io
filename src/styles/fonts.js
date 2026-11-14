@@ -31,6 +31,8 @@ import SharpGroteskSemiBold from '@fonts/SharpGrotesk/SharpGrotesk-SemiBold.otf'
 import SharpGroteskBold from '@fonts/SharpGrotesk/SharpGrotesk-Bold.otf';
 import SharpGroteskSemiBoldItalic from '@fonts/SharpGrotesk/SharpGrotesk-SemiBoldItalic.otf';
 
+import UnboundedVariable from '@fonts/Unbounded/Unbounded-VariableFont_wght.ttf';
+
 const sharpGNormalWeights = {
   400: [SharpGroteskLight],
   500: [SharpGroteskMedium],
@@ -114,8 +116,24 @@ const sfMonoItalic = createFontFaces(sfMono, 'italic');
 const sharpGNormal = createFontFaces(sharpG);
 const sharpGItalic = createFontFaces(sharpG, 'italic');
 
+const unbounded = `
+  @font-face {
+    font-family: 'Unbounded';
+    src: url(${UnboundedVariable}) format('truetype');
+    font-weight: 200 900;
+    font-style: normal;
+    font-display: auto;
+  }
+`;
+
 const Fonts = css`
-  ${calibreNormal + calibreItalic + sfMonoNormal + sfMonoItalic + sharpGNormal + sharpGItalic}
+  ${calibreNormal +
+  calibreItalic +
+  sfMonoNormal +
+  sfMonoItalic +
+  sharpGNormal +
+  sharpGItalic +
+  unbounded}
 `;
 
 export default Fonts;

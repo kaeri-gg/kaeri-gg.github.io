@@ -21,10 +21,12 @@ const variables = css`
     --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui,
       sans-serif;
     --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
-    --font-title: 'SharpGrotesk', monospace;
+    --font-title: 'Unbounded', var(--font-sans);
+    --font-title-1: 'SharpGrotesk', monospace;
 
     --fz-xxs: 12px;
     --fz-xs: 13px;
+    --fz-sm: 14px;
     --fz-sm: 14px;
     --fz-md: 16px;
     --fz-lg: 18px;

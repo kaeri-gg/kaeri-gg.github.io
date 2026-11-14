@@ -56,6 +56,11 @@ const StyledProject = styled.li`
         padding: 25px 25px 20px;
       }
     }
+    .project-title {
+      @media (min-width: 768px) {
+        margin-left: auto;
+      }
+    }
     .project-tech-list {
       justify-content: flex-end;
 
@@ -128,8 +133,14 @@ const StyledProject = styled.li`
     font-size: clamp(20px, 5vw, 24px);
     font-family: var(--font-title), serif;
     font-weight: 400;
+    line-height: 1.3;
+    text-wrap: balance;
+    overflow-wrap: break-word;
 
     @media (min-width: 768px) {
+      position: relative;
+      z-index: 3;
+      max-width: 80%;
       margin: 0 0 20px;
     }
 
